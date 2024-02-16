@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200;300;400;600&family=Raleway:wght@100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.formulario_registro{
+    border: 2px solid red;
+    height: 500px;
+    width: 50%;
+    padding: 40px;
+}
+
+footer{
+    height: 600px;
+    background-color: white;
+    margin-top: -100px;
+}
+
+.info_footer{
+    background-image:url(/assets/other/waves_footer.svg);
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 40px;
+    padding-top: 450px;
+}
+
+.correo {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none; 
+    font-size: 16px; 
+    padding-bottom: 5px;
+    width: 100%; 
+}
+.correo:focus {
+     border-bottom: 2px solid #f9f9f9;
+}
+
+.inputs {
+    background-color: transparent;
+    color: rgb(32, 32, 32);
+    border: 1px solid gray;
+    outline: none; 
+    font-size: 25px; 
+    padding-bottom: 5px;
+    width: 100%; 
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.inputs:focus {
+    border: 2px solid rgb(35, 34, 34);
+}
+
+.mensaje {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none; 
+    font-size: 16px; 
+    padding-bottom: 5px;
+    width: 100%; 
+}
+.mensaje:focus {
+     border-bottom: 2px solid #f9f9f9;
+}
+
+.texto_registro{
+    border: 2px solid red;
+    width: fit-content;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
